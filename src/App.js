@@ -1,7 +1,10 @@
-import React from 'react'
+ 
+import QrCode from "./components/QrCode";
 
 export default function App() {
   return (
-    <div>App</div>
-  )
+    <>
+      <QrCode />
+    </>
+  );
 }
